@@ -30,3 +30,4 @@ router.post('/', jsonParser, (req, res) => {
   res.status(201).json(item);
 });
 
+module.exports = router;
