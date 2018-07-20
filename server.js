@@ -8,7 +8,7 @@ const blogPostsRouter = require('./blogPostsRouter');
 
 // log the http layer
 app.use(morgan('common'));
-
+app.use(express.json());
 //app.use(express.static('public'));
 
 /*app.get('/', (req, res) => {
