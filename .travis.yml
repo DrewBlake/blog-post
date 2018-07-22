@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: iHas2hXZFVQq2SkCTwDCpDEKdPiv0JJ0O1UeG4rYFH4yngMT8WJ1lTCzyDBDo2k/yxxKjZgoRkQH/izGTipPS9+0N5fHzmyn8Bcq8TXYx/GBRis/gR1UXjttPLVl4KMjAyJxon0PcRuXZI5nCMq4QS1dJhYdkor/MmYrXjcY55Z0juj+Yi80Rg5gbxaS19TXr8MVITDgMu2+uO+ezJzQ7NQbCoCdZBqTDa4ZT79HTWORoAcesk7E0yt01FUdvwfX1Gg4LXujca2HTUFb3+QZj2JZPl/TCdbovP18XzIBuRl4nYm7t+fQ5cbDOyCOs3cX7UNQGeYGnZdKPwl644C27l2qjCM4WABEXjY8M1dmUPPY198Ey9DEpflALAceu6vrR4rVtDQXAoTSQtNvlSmx3xWMECjyLwTJ18oAPDpgbU2qa9/QujKZWr2B5o8gz/Py53oWyRjZ0mJSb1K1VWQcuHDObVk4f4LIm4LyY7GSzi6gYTtVSwWPUknvAv47aqmGxaeJqCZaNzZneulvOxW2bFB7kcedck8VS+YH0UeFg5nORJ3ezeNIZF7CNngjH+/rBh2di75tcUH3XKT246cLMfWZyrH/AY1jzQnH5JuReLU90lXTsK7/SkUmUN7O3j1MuB5Sgz0zowyLzrrvOdidTTt/kuZWn6UXsPTR7Ed/2jE=
+  app: fast-dawn-51845
+  on:
+    repo: DrewBlake/blog-post
